@@ -12,4 +12,8 @@ void main() {
   print(myName.split(""));
 
   print("my name length ${myName.length}");
+
+  print("IndexOf a => ${myName.indexOf("a")}");
+  print("IndexOf A => ${myName.indexOf("A")}");
+  print("Contains => rd => ${myName.contains("rd")}");
 }
