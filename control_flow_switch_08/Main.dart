@@ -48,4 +48,10 @@ void main() {
       break;
     // ...
   }
+
+  // Tricks :)
+  bool isReturningCustomer = true;
+  String alert = isReturningCustomer
+      ? 'Welcome back to our site!'
+      : 'Welcome, please sign up.';
 }
