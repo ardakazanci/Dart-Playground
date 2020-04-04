@@ -33,4 +33,5 @@ void debugger({String arg1, String arg2}) {}
 void debuggerSecond(int arg1, int arg2, [int arg3]) {}
 
 // Default Value
+// Default parameter values only work with optional parameters.
 int debuggerThird(int x, int y, [int z = 25]) => x + y + z;
