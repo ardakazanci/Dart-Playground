@@ -17,6 +17,40 @@ void main() {
 
    */
 
+  var n6, n7, n8;
+  /*
+  Error
+  n8 +=2;
+  print(n8);
+   */
+
+  /**
+
+      Assignment Operators
+
+      Operator	Meaning
+      -=	subtraction assignment
+      /=	divisions assigment
+      %=	modulo assignment
+      +=	addition assignment
+   *=	multiplication
+      ~/=	integer division assignment
+      >>=	bitwise shift right assignment
+      ^=	bitwise XOR assignment
+      <<=	bitwise shift left assignment
+      &=	bitwise and assignment
+      |=	bitwise or assignment
+
+   */
+
+  n6 = 10;
+  n7 = 20;
+  print(n6 += n7);
+  print(n6 *= n7);
+  print(n6 -= n7);
+  print(n6 /= n7);
+  print(n6 %= n7);
+
   assert(2 + 2 == 4); // true
   assert(2 * 2 == 4); // true
   assert(2 / 2 == 1); // true
@@ -44,6 +78,7 @@ void main() {
   /**
 
       Operator	Meaning
+
       ==	: Equal
       !=	: Not equal
       >   : 	Greater than
@@ -58,4 +93,22 @@ void main() {
   assert(2 > 1);
   assert(2 >= 2);
   assert(2 <= 2);
+
+  var n1, n2;
+  n1 = 10;
+  n2 = 15;
+
+  assert(n1 | n2 > 10);
+  assert(n1 & n2 > 2);
+
+  assert(n1 > 10 || n2 < 20);
+  assert(n1 < 11 && n2 > 14);
+
+  assert(n1 is int);
+  assert(n2 is! double);
+
+  var n3, n4;
+  n4 = 15;
+  // ?? => null control
+  print(n3 ?? n4);
 }
