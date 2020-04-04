@@ -111,4 +111,16 @@ void main() {
   n4 = 15;
   // ?? => null control
   print(n3 ?? n4);
+
+  /**
+      Logical Operators
+      ||
+      &&
+      !expr
+   */
+
+  bool n9 = true;
+  bool n10 = false;
+  // assert(n9 && n10);
+  assert(n9 || n10 == false);
 }
